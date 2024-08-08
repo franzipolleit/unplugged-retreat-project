@@ -90,6 +90,7 @@ textarea {
    .content-wrapper {
      outline: 3px dotted red;
      width: 90%;
+     margin: 50px 0;
    }
    /*---------------------- Base Header - Footer Styles --------------------*/
 
@@ -98,6 +99,7 @@ textarea {
    header {
      display: flex;
      justify-content: center;
+     padding: 15px 0;
    }
 
    header .content-wrapper {
@@ -105,15 +107,28 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: 0;
+   }
+
+   header .content-wrapper a img {
+     margin: 0;
    }
 
    .header-divider {
+     width: 100%;
+     height: 1px;
+     margin: 10px 0 20px 0;
+   }
 
+   header nav {
+    width: 60%;
    }
 
    header nav ul {
      display: flex;
      justify-content: space-around;
+     width: 100%;
+     margin: 0;
    }
 
    /* Footer styles */
@@ -123,6 +138,19 @@ textarea {
      flex-direction: column;
      align-items: center;
      text-align: center;
+   }
+
+   footer p {
+     margin: 0;
+   }
+
+   footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+   }
+
+   footer .contact {
+     margin-bottom: 50px;
    }
 
    footer .social-icons {
@@ -139,6 +167,10 @@ textarea {
 
    }
 
+   footer .copyright {
+     margin: 20px 0;
+   }
+
 
 
    /*---------------------- Mobile Styles - Homepage --------------------*/
@@ -148,7 +180,7 @@ textarea {
    .hero-area{
      display: flex;
      justify-content: center;
-
+     padding: 50px 0;
    }
 
    /* Aside */
@@ -164,7 +196,10 @@ textarea {
    .features {
      display: flex;
      justify-content: center;
+   }
 
+   .features h2 {
+     margin-bottom: 60px;
    }
 
    .features .features-items {
@@ -175,12 +210,25 @@ textarea {
 
    }
 
+   .features article {
+     width: 63%;
+     margin: 30px 0;
+   }
+
+   .features p {
+     margin: 0;
+   }
+
    /* Reviews */
 
    .reviews {
      display: flex;
      justify-content: center;
 
+   }
+
+   .reviews h3 {
+     width: 55%;
    }
 
    /*---------------------- Mobile Styles - About Page --------------------*/
@@ -197,6 +245,10 @@ textarea {
 
    }
 
+   .contact-content p {
+     margin: 0;
+   }
+
    /*---------------------- Mobile Styles - FAQ Page --------------------*/
 
    .faq {
@@ -210,7 +262,16 @@ textarea {
      justify-content: center;
      align-items: flex-start;
      flex-flow: row wrap;
+     margin: 50px 0 0 0;
 
+   }
+
+   .faq h2 {
+     margin-bottom: 40px;
+   }
+
+   .faq-content {
+     margin-bottom: 50px;
    }
 
 
