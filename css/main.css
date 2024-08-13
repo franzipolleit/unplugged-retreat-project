@@ -98,6 +98,7 @@ textarea {
    font-size: 1em;
    text-align: left;
    color: #e2e3ed;
+   background-color: #202322;
  }
 
  ul,
@@ -116,6 +117,7 @@ textarea {
    font-family: 'Poppins', sans-serif;
    font-size: 1.875em;
    font-weight: 500;
+   margin: 0;
  }
 
  h3,
@@ -167,7 +169,7 @@ textarea {
      margin: 0;
    }
 
-   header .figure {
+   header figure {
      width: 60%;
    }
 
@@ -256,7 +258,6 @@ textarea {
      min-height: 500px;
      display: flex;
      justify-content: center;
-     padding: 50px 0;
    }
 
    .hero-area h1 {
@@ -598,7 +599,7 @@ textarea {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   .features i {
@@ -818,16 +819,6 @@ textarea {
 
 
   /* Footer */
-
-  footer .content-wrapper {
-    width: 65%;
-  }
-
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
   footer h4 {
     font-size: 1.875em;
